@@ -1,0 +1,49 @@
+@media screen and (max-width:1000px){
+    .header{
+        height:500px
+    }
+    .navbar{
+        position:relative
+    }
+    .menu{
+        display:none
+    }
+    .logo{
+        text-align:center
+    }
+    header{
+        padding-top:30px
+}
+}
+@media screen and (max-width:800px){
+    .header{
+        height:600px
+    }
+    .headline{
+        flex:90%;
+        margin:5%;
+        text-align:center
+    }
+    .headline p{
+        text-align:center
+    }
+    .img-headline{
+        flex:90%;
+        margin:5%;
+        text-align:center
+    }
+    #img-headline{
+        max-width:400px
+    }
+    .card{
+        width:90%;
+        margin-left:5%;
+        margin-right:5%
+    }
+    section{
+    margin-top:250px
+}
+    .whatsapp{
+        display:none
+    }
+}

@@ -1,0 +1,193 @@
+*{
+    box-sizing:border-box
+}
+body{
+    margin:0
+}
+
+.navbar{
+    display:flex;
+    flex-flow:row wrap;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    background-color: white;
+    
+
+}
+.logo{flex:20%;
+    margin-left:10%;
+    font-family: 'Lobster', sans-serif;
+    font-size:25px;
+    text-align: left
+
+}
+.menu{flex:70%;   
+    padding:30px;
+    justify-content: right;
+    text-align:right
+}
+.menu a{
+    padding:20px 16px;
+    font-family:'DM-Sans', sans-serif;
+    font-size:20px;
+    color:rgb(1, 1, 22);
+    text-decoration:none;
+}
+.menu a:hover{
+    background-color: white;
+    border-top:4px solid rgb(0, 0, 25);
+    color:#FF2978
+
+}
+
+#main{
+    background-color: rgb(0, 0, 25);
+    color:white;
+    border-radius:5px;
+    border:1px solid rgb(0, 0, 25);
+    margin-right:10%;
+    margin-left:5%
+  
+}
+#main:hover{
+    background-color:#FF2978
+}
+.header{
+    display:flex;
+    flex-flow:row wrap;
+    height:650px;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+    
+}
+.headline{
+    flex:40%;
+    margin-left:10%;
+    justify-content:center;
+    align-items:center;
+}
+.headline h2{
+    font-weight:900;
+    color:rgb(0, 0, 25);
+    font-size:20px;
+    font-family: 'DM Sans', sans-serif;
+    padding:0;
+    margin:0
+}
+.headline p{
+    color:grey;
+    text-align:left;
+    font-family:'DM Sans', sans-serif;
+}
+.contact-button{
+    display:inline-block;
+    padding:20px;
+    border:1px rgb(0, 0, 25) solid;
+    background-color:#FF2978;
+    font-family: 'DM Sans' sans-serif;
+    color:white;
+    text-transform:uppercase;
+    border-radius:5px;
+    font-size:15px;
+    text-decoration:none;    
+}
+.contact-button:hover{
+    background-color: rgb(0, 0, 25);
+}
+.img-headline{
+    flex:40%;
+    margin-right:10%;
+    text-align:center
+}
+#img-headline{
+    max-width:90%;
+}
+section{
+    display:inline-block;
+    margin-left:5%;
+    margin-right:5%;
+}
+section h2{
+    width:100%;
+    color:rgb(0, 0, 25);
+    font-family: 'Lobster', sans-serif;
+    font-size:50px;
+    margin:0;
+    font-weight: bold;
+    text-align:center;
+}
+.servicos{
+    width:100%;
+    display:inline-block;
+    margin-top:5%;
+    justify-content: center;
+}
+.card{
+    display:inline-block;
+    width:30%;
+    padding:20px;
+    margin:1%;
+    border:1px solid #FF2978;
+    font-family:'DM Sans', sans-serif;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+
+.card:hover{
+    background-color:#FF2978;
+    color:white;
+}
+.card:hover img{
+    background:white;
+    border-radius:5px
+}
+footer{
+    margin-top:100px;
+    height:360px;
+    background-image:linear-gradient(rgb(0,0,40), black);
+    text-align:center;
+    align-items:center;
+    border-top:5px solid #FF2978;
+}
+.footer-logo{
+    padding:80px;
+}
+.agencia{
+font-family:'Lobster', cursive;
+font-size:34px;
+color:white;
+}
+footer p{
+    color:white;
+    font-family: 'DM Sans', sans-serif;
+}
+.copyright{
+    text-align:center;
+    font-family: 'DM Sans',sans-serif;
+    color:white;
+    font-weight:bold;
+}
+.whatsapp{
+    position:fixed;
+    display:flex;
+    flex-flow:column nowrap;
+    bottom:5px;
+    right:5px    
+}
+.whatsapp a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    font-family: 'DM Sans', sans-serif;
+    color:green
+}
+.whatsapp img{
+    width:60px;
+    text-align:center
+}
